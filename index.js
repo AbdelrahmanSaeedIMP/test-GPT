@@ -23,4 +23,4 @@ app.get('/', (req, res) => {
 app.use('/code-doc', chatGPT)
 
 // Running the app
-app.listen(port, () => console.log(`Nilewood admin backend app is running on port ${port}`))
+app.listen(port, () => console.log(`ChatGPT integration is running on port ${port}`))
